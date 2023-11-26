@@ -8,41 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
-.header {
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
-}
-
-.header h1 {
-    display: inline-block;
-    font-size: 48px;
-}
-
-.header h1 .seo {
-    color: #d9dcd6;
-}
-
-/*Div updated to nav, id's link to main content sections-->*/
-.header nav {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-}
-
-/*Div updated to nav, id's link to main content sections-->*/
-.header nav ul {
-    list-style-type: none;
-}
-
-/*Div updated to nav, id's link to main content sections-->*/
-.header nav ul li {
-    display: inline-block;
-    margin-left: 25px;
-}
+/*moved a and p styling to top as they are broad styles*/
 
 a {
     color: #ffffff;
@@ -51,6 +17,43 @@ a {
 
 p {
     font-size: 16px;
+}
+
+/*removed header tag from elements and moved above the header class which will be dominant styling*/
+
+h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/*Div updated to nav, id's link to main content sections*/
+ nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+      
+}
+
+/*Removed extraneous header nav styling*/
+
+/*removed nav, ul li exist within header*/
+ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/*removed header tag from seo class and moved below the header class*/
+.seo {
+    color: #d9dcd6;
 }
 
 .hero {
